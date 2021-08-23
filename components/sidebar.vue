@@ -2,12 +2,15 @@
   <div class="sidebar">
       <div class="nav__main__item nav__main__item--store">
         <a href="#" class="nav__main__link">
-          <svg class="icon nav--icon">
-            <use xlink:href="sprite.svg#store"></use>
+          <div class="store-icon-box">
+            <svg class="icon nav--icon store-icon">
+            <use xlink:href="~/assets/sprite.svg#store"></use>
           </svg>
-          <span>Store name</span>
+          </div>
+
+          <span class="store-name">Store name</span>
           <svg class="chevron">
-            <use xlink:href="sprite.svg#chevron"></use>
+            <use xlink:href="~/assets/sprite.svg#chevron"></use>
           </svg>
         </a>
       </div>
@@ -16,7 +19,7 @@
           <div class="nav__main__item nav__main__item--home">
           <a href="#" class="nav__main__link">
             <svg class="icon nav--icon">
-              <use xlink:href="sprite.svg#home"></use>
+              <use xlink:href="~/assets/sprite.svg#home"></use>
             </svg>
             <span>Home</span>
           </a>
@@ -25,7 +28,7 @@
             <li class="nav__main__item mt-12">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#payment"></use>
+                  <use xlink:href="~/assets/sprite.svg#payment"></use>
                 </svg>
                 <span>Payments</span>
               </a>
@@ -82,7 +85,7 @@
             <li class="nav__main__item mt-24">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#balance"></use>
+                  <use xlink:href="~/assets/sprite.svg#balance"></use>
                 </svg>
                 <span>Balances</span>
               </a>
@@ -90,7 +93,7 @@
             <li class="nav__main__item mt-12">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#customer"></use>
+                  <use xlink:href="~/assets/sprite.svg#customer"></use>
                 </svg>
                 <span>Customers</span>
               </a>
@@ -98,7 +101,7 @@
             <li class="nav__main__item mt-12">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#connected"></use>
+                  <use xlink:href="~/assets/sprite.svg#connected"></use>
                 </svg>
                 <span>Connected accounts</span>
               </a>
@@ -106,7 +109,7 @@
             <li class="nav__main__item mt-12">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#product"></use>
+                  <use xlink:href="~/assets/sprite.svg#product"></use>
                 </svg>
                 <span>Products</span>
               </a>
@@ -114,7 +117,7 @@
             <li class="nav__main__item mt-12">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#report"></use>
+                  <use xlink:href="~/assets/sprite.svg#report"></use>
                 </svg>
                 <span>Reports</span>
               </a>
@@ -126,7 +129,7 @@
             <li class="nav__main__item">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#developer"></use>
+                  <use xlink:href="~/assets/sprite.svg#developer"></use>
                 </svg>
                 <span>Developers</span>
               </a>
@@ -134,7 +137,7 @@
             <li class="nav__main__item mt-12">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#off"></use>
+                  <use xlink:href="~/assets/sprite.svg#off"></use>
                 </svg>
                 <span>View test data</span>
               </a>
@@ -142,7 +145,7 @@
             <li class="nav__main__item mt-12">
               <a href="#" class="nav__main__link">
                 <svg class="icon nav--icon">
-                  <use xlink:href="sprite.svg#settings"></use>
+                  <use xlink:href="~/assets/sprite.svg#settings"></use>
                 </svg>
                 <span>Settings</span>
               </a>

@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: rgba(77, 76, 82, 0.323);
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'SF Pro Text';
+  line-height: 1.7rem;
+}
+body {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.end {
+  text-align: end;
+}
+@font-face {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/SF-Pro-Text-Medium.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/SF-Pro-Text-Regular.otf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/SFPRODISPLAYBOLD.OTF') format('truetype');
+}

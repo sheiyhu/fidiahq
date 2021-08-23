@@ -1,0 +1,341 @@
+.container {
+  min-height: 90rem;
+  min-width: 144rem;
+  display: flex;
+  margin: auto;
+}
+
+.sidebar {
+  flex: 0 0 27rem;
+  background: #f7fafc;
+  padding: 1.2rem 2rem;
+}
+
+.main {
+  flex: 1;
+  background-color: white;
+}
+
+.icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.nav__main__item {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #1a1f36;
+  text-decoration: none;
+}
+.nav__main__item--home {
+  margin-bottom: 2.4rem;
+}
+.nav__main__item--store {
+  margin-bottom: 3.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #1a1f36;
+}
+
+.nav__main__link:link,
+.nav__main__link:visited {
+  color: #1a1f36;
+  text-decoration: none;
+  display: flex;
+  text-decoration: none;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.nav__secondary {
+  margin-top: 2.8rem;
+}
+
+.nav--icon {
+  margin-right: 1.4rem;
+}
+
+.store-icon-box {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 100%;
+  background: #fff;
+  margin-right: 1.2rem;
+}
+
+.store-icon {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.header {
+  height: 5.7rem;
+  border-bottom: 1px solid #e3e8ee;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header__search {
+  display: flex;
+  align-items: center;
+}
+.header__search > svg {
+  margin: 0;
+}
+.header__search--input {
+  border: none;
+  margin-left: 0.8rem;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav--link {
+  text-decoration: none;
+}
+.header__nav--icon {
+  margin-left: 1.6rem;
+}
+
+.left {
+  display: flex;
+}
+
+.payment__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.2rem 4rem 2rem 4rem;
+}
+.payment__header__button {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.08),
+    0px 0px 0px 1px rgba(60, 66, 87, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-left: 0.8rem;
+  height: 2.9rem;
+  padding-right: 0.8rem;
+  padding-left: 0.68rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3c4257;
+}
+.payment__header__button--create {
+  background: #5469d4;
+  color: #fff;
+}
+
+.payment__tabs {
+  display: flex;
+  border-bottom: 1px solid #e3e8ee;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.payment__tabs--item {
+  height: 2.8rem;
+  background: #fff;
+  outline: none;
+  border: none;
+  margin-right: 2.6rem;
+  padding-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #697386;
+}
+.payment__tabs--item-selected {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+.payment__table {
+  margin-top: 2.05rem;
+  margin-right: 4rem;
+}
+.payment__table__header {
+  border-bottom: 1px solid #e3e8ee;
+  display: flex;
+  margin-left: 4rem;
+}
+.payment__table__header--item {
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+.payment__table__header--item--amount {
+  padding-left: 2.8rem;
+}
+.payment__table__header--item--description {
+  padding-left: 1rem;
+}
+.payment__table__body {
+  display: flex;
+  border-bottom: 1px solid #e3e8ee;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.payment__footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 4rem 2.7rem 4rem;
+}
+.payment__footer--text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3c4257;
+}
+.payment__footer--text span {
+  font-weight: normal;
+}
+.payment__footer__button {
+  height: 2.9rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.08),
+    0px 0px 0px 1px rgba(60, 66, 87, 0.16), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #3c4257;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+.payment__footer__button--previous {
+  opacity: 0.5;
+  margin-right: 0.8rem;
+}
+
+.payment--icon {
+  margin-right: 1rem;
+}
+
+.payment-header-label {
+  flex: 0 0 9.02%;
+  margin-right: 1.2rem;
+}
+
+.payment-checkbox {
+  margin-bottom: 1rem;
+  margin-right: 1.2rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.payment-amount {
+  margin-right: 1.2rem;
+  flex: 0 0 8%;
+}
+.payment-amount-data {
+  text-align: end;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a1f36;
+}
+
+.payment-label {
+  display: flex;
+  height: 1.8rem;
+  width: 9.3rem;
+  margin-right: 1.2rem;
+  flex: 0 0 9.02%;
+  background: #cbf4c9;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.payment-label span {
+  margin-left: 0.6rem;
+  margin-right: 0.4rem;
+  margin-top: 0.2rem;
+}
+.payment-label-icon {
+  margin: 0;
+}
+
+.payment-description {
+  margin-right: 1.2rem;
+  flex: 0 0 44.8%;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c4257;
+}
+
+.payment-email {
+  margin-right: 1.2rem;
+  flex: 0 0 14.87%;
+  color: #3c4257;
+}
+
+.payment-email-data {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.payment-date {
+  margin-right: 1.2rem;
+  flex: 0 0 12.45%;
+  color: #3c4257;
+}
+
+.payment-date-data {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.payment-icon {
+  margin-right: 1.2rem;
+  flex: 0 0 1.11%;
+}
+.payment-icon-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.checkbox {
+  flex: 0 0 1.4rem;
+  background-color: white;
+}
+
+.mt-12 {
+  margin-top: 1.2rem;
+}
+
+.mt-24 {
+  margin-top: 2.4rem;
+}
+
+.mt-8 {
+  margin-top: 0.8rem;
+}
+
+.chevron {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: 1.5rem;
+  margin-top: 0.4rem;
+}
+.store-name {
+  font-weight: 500;
+}
+.payment__title {
+  font-family: 'SF Pro Display';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #1a1f36;
+}
