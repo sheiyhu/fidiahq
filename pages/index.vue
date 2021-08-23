@@ -11,7 +11,7 @@
     </svg>
     <div class="content">
       <header class="title">
-        <img src="~/assets/vector.png" alt="Spripr" srcset="" />
+        <img src="~/assets/Vector.png" alt="Spripr" srcset="" />
       </header>
       <div class="signin">
         <h2 class="signin__title">Sign in to your account</h2>
